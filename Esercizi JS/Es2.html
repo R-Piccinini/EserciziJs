@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <script>
+            let i=1;
+            while(i<=50){
+                if((i%5==0)&&(i%3==0)){
+                  console.log("FizzBuzz");
+                  document.write(("<h5>FizzBuzz</h5>")); 
+                }
+                else if(i%5==0){
+                    console.log("Buzz");
+                    document.write("<h5>Buzz"); 
+                }
+                else if(i%3==0){
+                    console.log("Fizz");
+                    document.write("<h5>Fizz</h5>");
+                }
+                 else{
+                    console.log(i);
+                    document.write("<h5>"+i+"</h5>")
+                 }     
+              i++;
+            }
+           
+        </script>
+    </body>
+</html>
